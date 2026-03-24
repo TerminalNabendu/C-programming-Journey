@@ -6,7 +6,7 @@ int main() {
     if (marks >= 90) {
         printf("Grade A\n");
     }
-    else if (marks >= 80) {
+    else if (marks >= 80) {  // if (if) is true all the else if and else will be ignored
         printf("Grade B\n");
     }
     else if (marks >= 70) {

@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/*Quick Quiz: Write a program to print natural numbers from 10 to 20 when initial loop
+counter is initialized to 0.*/
+
+int main() {
+    int i = 0;
+
+    while (i <= 20) {
+        // print only when i >= 10
+        if (i >= 10) {
+            printf("%d\n", i);
+        }
+
+        i++;  // must update loop variable
+    }
+
+    return 0;
+}

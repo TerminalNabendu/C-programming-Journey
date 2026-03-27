@@ -4,6 +4,7 @@ int main(){
     int n = 12;
      // start from n, go till > 0, decrease each time
     for (int i=n; i ; i--){  // don't make this mistake for(int i=10 ; i<=n ; i--) or u gonna start infinite loop
+        //i itself acts as condition
         printf("%d\n",i); 
     }
         
